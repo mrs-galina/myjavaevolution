@@ -6,5 +6,9 @@ public class myfirstcode {
 	// this is a short comment
 	public static void main(String[] args) {
 		System.out.println("Java rules the world.");
+a,msdf
+123sd;fk
+1234
+;dg;]\
 	}
 }
