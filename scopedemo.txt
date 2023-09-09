@@ -1,0 +1,16 @@
+package ScopeDemo;
+
+public class scopedemo {
+	public static void main(String[] args) {
+		int x;
+		x = 10;
+		if (x == 10) {
+			int y = 20;
+			System.out.println("x and y: " + x + " and " + y);
+			x = y * 2;
+		}
+		// y is not known in this area, x is still here
+		System.out.println("The x is " + x);
+	}
+
+}

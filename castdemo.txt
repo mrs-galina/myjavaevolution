@@ -1,0 +1,28 @@
+package castdemo;
+
+public class Castdemo {
+	public static void main(String[] args) {
+		double x, y;
+		byte b;
+		int i;
+		char ch;
+		
+		x = 10.0;
+		y = 3.0;
+		i = (int) (x/y); // we lose information here
+		System.out.println("The result of x / y: " + i);
+		
+		i = 100;
+		b = (byte) i; // we don't lose anything here
+		System.out.println("b is: " + b);
+		
+		i = 257;
+		b = (byte) i; // we lose information here
+		System.out.println("b is: " + b);
+		
+		b = 88; // code ASCII for X
+		ch = (char) b;
+		System.out.println("ch is: " + ch);
+	}
+
+}

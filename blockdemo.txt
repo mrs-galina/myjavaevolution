@@ -1,0 +1,14 @@
+package blockdemo;
+
+public class blocdemo {
+	public static void main(String[] args) {
+		double i, j, d;
+		i = 5;
+		j = 10;
+		if(i != 0) {
+			System.out.println("i doesn't equal 0");
+			d = j / i;
+			System.out.println("the result of j / i is " + d);
+		}
+	}
+}

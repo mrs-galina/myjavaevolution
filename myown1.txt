@@ -1,0 +1,11 @@
+package myown1;
+
+public class myown1 {
+	public static void main(String[] args) {
+		double w1, w2;
+		w1 = 70;
+		System.out.println("My weight on the Earth is "+ w1);
+		w2 = 70 * 0.17;
+		System.out.println("My weight on the Moon is " + w2);
+}
+}

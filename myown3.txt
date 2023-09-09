@@ -1,0 +1,21 @@
+package myown3;
+
+public class myown3 {
+	public static void main(String[] args) {
+		double dollars, rubles;
+		int counter;
+		counter = 0;
+		System.out.println("From dollars to rubles");
+		for(dollars = 1; dollars < 100; dollars++) {
+			rubles = dollars / 94;
+			System.out.println(dollars + " dollars is " + rubles + " rubles");
+			counter++;
+			if(counter == 20) {
+				System.out.println();
+				counter = 0;
+			}
+					
+			
+		}
+	}
+}

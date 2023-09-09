@@ -1,0 +1,9 @@
+package task2;
+
+public class task2 {
+	public static void main(String[] args) {
+		double d;
+		d = 7.2 * 355;
+		System.out.println("The distance is " + d + " meters.");
+	}
+}
